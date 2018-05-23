@@ -1,6 +1,4 @@
-<h1>home</h1>
-
-  <header class="header">
+<header class="header">
     <div class="header__logo-box">
       <%= image_tag('logo-white.png', class: 'header__logo', alt: 'Logo') %>
     </div>
@@ -15,14 +13,32 @@
 
   <main>
     <section class="section-about">
-      <div class="u-center-text u-margin-bottom-8">
+      <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
           Exciting tours for adventutous people
         </h2>
       </div>
       <div class="row">
-          <div class="col-1-of-2">Col 1 of 2</div>
-          <div class="col-1-of-2">Col 1 of 2</div>
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              You're going to fall in love with nature
+            </h3>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Live adventures like you never have before
+            </h3>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <a class="btn-text" href="#">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+              <div class="composition">
+                <%= image_tag('nat-1-large.jpg', class: 'composition__photo composition__photo--p1', alt: '') %>
+              <%= image_tag('nat-2-large.jpg', class: 'composition__photo composition__photo--p2', alt: '') %>
+              <%= image_tag('nat-3-large.jpg', class: 'composition__photo composition__photo--p3', alt: '') %>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
   </main>
