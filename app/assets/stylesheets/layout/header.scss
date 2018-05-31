@@ -4,10 +4,11 @@
   background-image: linear-gradient(
     to right bottom,
     rgba($color-primary-light, 1),
-    rgba($color-primary-dark, 1));
+    rgba($color-primary, 1)
+  );
   background-size: cover;
   background-position: top;
-  
+
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
@@ -17,7 +18,8 @@
   }
 
   &__logo {
-    height: 3.5rem;
+    height: 8rem;
+    transform: skewY(-2deg);
   }
 
   &__text-box {
