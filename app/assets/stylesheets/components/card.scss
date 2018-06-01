@@ -54,7 +54,7 @@
           $color-secondary-light,
           $color-secondary-dark
         ),
-        url("nat-1-large.jpg");
+        url(asset_path("nat-1-large.jpg"));
     }
   }
 }
