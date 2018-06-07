@@ -22,7 +22,7 @@
         <span class="heading-primary--main">Rona Trgovina</span>
         <span class="heading-primary--sub">Prodaja žarnic in svetil</span>
       </h1>
-      <%# <a href="#" class="btn btn--white btn--animated">Discover out tours</a> %>
+      <a href="#popup" class="btn btn--white btn--animated">CSS Popup</a>
     </div>
   </header>
 
@@ -314,6 +314,22 @@
       </div>
     </div>
   </footer>
+
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <%= image_tag('nat-1-large.jpg', class: 'popup__img', alt: 'photo') %>
+        <%= image_tag('nat-1-large.jpg', class: 'popup__img', alt: 'photo') %>
+      </div>
+      <div class="popup__right">
+        <a class="popup__close" href="#">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">Heading 2</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">kapae, ne ti.. ja ti.</h3>
+        <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</p>
+        <a class="btn btn--blue" href="#">gumb</a>
+      </div>
+    </div>
+  </div>
 
 
   <!-- 
