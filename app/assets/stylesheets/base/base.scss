@@ -7,9 +7,24 @@
 }
 
 html {
-  /* setting the root font size to 10px, so we can use rem */
-  // defines what 1rem is
+  /* setting the root font size to 10px, so we can use rem, this percent defines what 1rem is */
   font-size: 62.5%;
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(phone) {
+    font-size: 30%;
+  }
 }
 
 body {
