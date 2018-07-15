@@ -22,7 +22,7 @@
         <span class="heading-primary--main">Rona Trgovina</span>
         <span class="heading-primary--sub">Prodaja žarnic in svetil</span>
       </h1>
-      <a href="#popup" class="btn btn--white btn--animated">CSS Popup</a>
+      <%# <a href="#popup" class="btn btn--white btn--animated">CSS Popup</a> %>
     </div>
   </header>
 
@@ -36,7 +36,7 @@
       <div class="row">
           <div class="col-1-of-2">
             <h3 class="heading-tertiary u-margin-bottom-small">
-              You're going to fall in love with nature
+              Bolj podroben opis podjetja itd.. + par slik produktov
             </h3>
             <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
             <h3 class="heading-tertiary u-margin-bottom-small">
@@ -62,32 +62,32 @@
         <div class="col-1-of-4">
           <div class="feature-box">
             <i class="feature-box__icon"><%= fa_icon "globe" %></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">neki neki</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 class="heading-tertiary u-margin-bottom-small">Osram</h3>
+            <p class="feature-box__text">Osram opis itd...</p>
           </div>
         </div>
         
         <div class="col-1-of-4">
           <div class="feature-box">
             <i class="feature-box__icon"><%= fa_icon "compass" %></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">neki neki</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 class="heading-tertiary u-margin-bottom-small">Ledvance</h3>
+            <p class="feature-box__text">Ledvance opis itd..</p>
           </div>
         </div>
 
         <div class="col-1-of-4">
           <div class="feature-box">
             <i class="feature-box__icon"><%= fa_icon "map" %></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">neki neki</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 class="heading-tertiary u-margin-bottom-small">Tungsram</h3>
+            <p class="feature-box__text">Tungsram opis itd..</p>
           </div>
         </div>
 
         <div class="col-1-of-4">
           <div class="feature-box">
             <i class="feature-box__icon"><%= fa_icon "heart" %></i>
-            <h3 class="heading-tertiary u-margin-bottom-small">neki neki</h3>
-            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 class="heading-tertiary u-margin-bottom-small">General electric</h3>
+            <p class="feature-box__text">General electric opis itd...</p>
           </div>
         </div>
       </div>
@@ -211,13 +211,43 @@
           Your browser is not supported!
         </video>
       </div> %>
-      <div class="bg-video" autoplay muted loop>
+      <!--<div class="bg-video" autoplay muted loop>
         <%= video_tag(["bg-video.mp4", "bg-video.webm"], autoplay: true, muted: true, loop: true) %>
-      </div>
+      </div>-->
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
-          Most popular lamps...
+          Ekipa
         </h2>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+            <%= image_tag('nat-1-large.jpg', alt: 'image', class: 'story__image') %>
+            <figcaption class="story__caption">Caption</figcaption>
+          </figure>
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              heading 3
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+            <%= image_tag('nat-1-large.jpg', alt: 'image', class: 'story__image') %>
+            <figcaption class="story__caption">Caption</figcaption>
+          </figure>
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              heading 3
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
       </div>
 
       <div class="row">
