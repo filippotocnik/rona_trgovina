@@ -25,6 +25,11 @@
   @include respond(tab-port) {
     padding: 10rem 0;
   }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 .section-tours {

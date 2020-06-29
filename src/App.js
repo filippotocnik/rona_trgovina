@@ -88,12 +88,12 @@ function App() {
             <div className="col-1-of-2">
               <div className="composition">
                 <img
-                  src="img1.jpg"
+                  src="img2.jpg"
                   className="composition__photo composition__photo--p1"
                   alt=""
                 ></img>
                 <img
-                  src="img2.jpg"
+                  src="img1.jpg"
                   className="composition__photo composition__photo--p2"
                   alt=""
                 ></img>
@@ -110,74 +110,110 @@ function App() {
         <section className="section-features">
           <div className="row">
             <div className="col-1-of-3">
-              <div className="feature-box">
-                {/* <i className="feature-box__icon fa fa_icon compas"></i> */}
-                <img src="osram-logo2.png" alt="logo"></img>
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Osram
-                </h3>
-                {/* <p className="feature-box__text">Osram opis itd...</p> */}
-              </div>
+              <a
+                href="https://www.osram.com/cb/products/index.jsp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon fa fa_icon compas"></i> */}
+                  <img src="osram-logo2.png" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Osram
+                  </h3>
+                  {/* <p className="feature-box__text">Osram opis itd...</p> */}
+                </div>
+              </a>
             </div>
 
             <div className="col-1-of-3">
-              <div className="feature-box">
-                {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
-                {/* <img src="ledvance-logo.jpg" alt="logo"></img> */}
-                <img src="ledvance-logo2.png" alt="logo"></img>
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Ledvance
-                </h3>
-                {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
-              </div>
+              <a
+                href="https://www.ledvance.com/consumer/index.jsp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
+                  {/* <img src="ledvance-logo.jpg" alt="logo"></img> */}
+                  <img src="ledvance-logo2.png" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Ledvance
+                  </h3>
+                  {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
+                </div>
+              </a>
             </div>
 
             <div className="col-1-of-3">
-              <div className="feature-box">
-                {/* <i className="feature-box__icon"><%= fa_icon "map" %></i> */}
-                <img src="tungsram-logo2.png" alt="logo"></img>
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Tungsram
-                </h3>
-                {/* <p className="feature-box__text">Tungsram opis itd..</p> */}
-              </div>
+              <a
+                href="https://tungsram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon"><%= fa_icon "map" %></i> */}
+                  <img src="tungsram-logo2.png" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Tungsram
+                  </h3>
+                  {/* <p className="feature-box__text">Tungsram opis itd..</p> */}
+                </div>
+              </a>
             </div>
           </div>
 
           <div class="row">
             <div className="col-1-of-3">
-              <div className="feature-box">
-                {/* <i className="feature-box__icon"><%= fa_icon "heart" %></i> */}
-                <img src="bailey-logo.png" alt="logo"></img>
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Bailey
-                </h3>
-                {/* <p className="feature-box__text">
+              <a
+                href="https://www.bailey.nl/en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon"><%= fa_icon "heart" %></i> */}
+                  <img src="bailey-logo.png" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Bailey
+                  </h3>
+                  {/* <p className="feature-box__text">
                   General electric opis itd...
                 </p> */}
-              </div>
+                </div>
+              </a>
             </div>
 
             <div className="col-1-of-3">
-              <div className="feature-box">
-                {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
-                <img src="vosslo-schwabe-logo.png" alt="logo"></img>
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Vosloh
-                </h3>
-                {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
-              </div>
+              <a
+                href="https://www.vossloh-schwabe.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
+                  <img src="vosslo-schwabe-logo.png" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Vossloh Schwabe
+                  </h3>
+                  {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
+                </div>
+              </a>
             </div>
 
             <div className="col-1-of-3">
-              <div className="feature-box">
-                {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
-                <img src="drfischer-logo.jpg" alt="logo"></img>
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Dr. Fischer
-                </h3>
-                {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
-              </div>
+              <a
+                href="https://www.dr-fischer-group.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
+                  <img src="drfischer-logo.jpg" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Dr. Fischer
+                  </h3>
+                  {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
+                </div>
+              </a>
             </div>
           </div>
         </section>
