@@ -66,14 +66,14 @@
     backface-visibility: hidden;
   }
 
-  &:hover &__caption {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
+  // &:hover &__caption {
+  //   opacity: 1;
+  //   transform: translate(-50%, -50%);
+  // }
 
-  &:hover &__image {
-    //transform: translateX(2rem) scale(1);
-    transform: translateX(2rem);
-    filter: blur(3px) brightness(80%);
-  }
+  // &:hover &__image {
+  //   //transform: translateX(2rem) scale(1);
+  //   transform: translateX(2rem);
+  //   filter: blur(3px) brightness(80%);
+  // }
 }

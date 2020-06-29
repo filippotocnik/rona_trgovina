@@ -19,6 +19,12 @@
   }
 }
 
+@mixin respond-tab {
+  @media (max-width: 1100px) {
+    @content;
+  }
+}
+
 /*
 $breakpoints:
 - phone 600px
