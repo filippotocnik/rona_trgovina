@@ -111,23 +111,6 @@ function App() {
           <div className="row">
             <div className="col-1-of-3">
               <a
-                href="https://www.osram.com/cb/products/index.jsp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="feature-box">
-                  {/* <i className="feature-box__icon fa fa_icon compas"></i> */}
-                  <img src="osram-logo2.png" alt="logo"></img>
-                  <h3 className="heading-tertiary u-margin-bottom-small">
-                    Osram
-                  </h3>
-                  {/* <p className="feature-box__text">Osram opis itd...</p> */}
-                </div>
-              </a>
-            </div>
-
-            <div className="col-1-of-3">
-              <a
                 href="https://www.ledvance.com/consumer/index.jsp"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -160,6 +143,23 @@ function App() {
                 </div>
               </a>
             </div>
+
+            <div className="col-1-of-3">
+              <a
+                href="https://www.vossloh-schwabe.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="feature-box">
+                  {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
+                  <img src="vosslo-schwabe-logo.png" alt="logo"></img>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Vossloh Schwabe
+                  </h3>
+                  {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="row">
@@ -184,17 +184,17 @@ function App() {
 
             <div className="col-1-of-3">
               <a
-                href="https://www.vossloh-schwabe.com/en/"
+                href="https://www.osram.com/cb/products/index.jsp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="feature-box">
-                  {/* <i className="feature-box__icon"><%= fa_icon "compass" %></i> */}
-                  <img src="vosslo-schwabe-logo.png" alt="logo"></img>
+                  {/* <i className="feature-box__icon fa fa_icon compas"></i> */}
+                  <img src="osram-logo2.png" alt="logo"></img>
                   <h3 className="heading-tertiary u-margin-bottom-small">
-                    Vossloh Schwabe
+                    Osram
                   </h3>
-                  {/* <p className="feature-box__text">Ledvance opis itd..</p> */}
+                  {/* <p className="feature-box__text">Osram opis itd...</p> */}
                 </div>
               </a>
             </div>
