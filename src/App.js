@@ -4,7 +4,7 @@ import "./App.scss";
 function App() {
   return (
     <Fragment>
-      <div className="navigation">
+      {/* <div className="navigation">
         <input
           type="checkbox"
           className="navigation__checkbox"
@@ -43,7 +43,7 @@ function App() {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
 
       <header className="header">
         <div className="header__logo-box">
@@ -162,7 +162,7 @@ function App() {
             </div>
           </div>
 
-          <div class="row">
+          <div className="row">
             <div className="col-1-of-3">
               <a
                 href="https://www.bailey.nl/en"
@@ -403,7 +403,7 @@ function App() {
               <figure className="story__shape">
                 <img
                   src="image7.jpg"
-                  alt="image"
+                  alt=""
                   className="story__image"
                 ></img>
                 <figcaption className="story__caption">Caption</figcaption>
@@ -412,13 +412,13 @@ function App() {
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Mojca Potočnik
                 </h3>
+                <p>Direktorica / CEO</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.
+                  <a href="mailto:mojca.potocnik@zarnice-rona.si">
+                    mojca.potocnik@zarnice-rona.si
+                  </a>
                 </p>
+                <p>042813234</p>
               </div>
             </div>
           </div>
@@ -428,7 +428,7 @@ function App() {
               <figure className="story__shape">
                 <img
                   src="image15.jpg"
-                  alt="image"
+                  alt=""
                   className="story__image"
                 ></img>
                 <figcaption className="story__caption">Caption</figcaption>
@@ -437,13 +437,13 @@ function App() {
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Robert Mihael Potočnik
                 </h3>
+                <p>Svetovalec za razsvetljavo / Lightning consultant</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.
+                  <a href="mailto:robert.potocnik@zarnice-rona.si">
+                    robert.potocnik@zarnice-rona.si
+                  </a>
                 </p>
+                <p>041635721</p>
               </div>
             </div>
           </div>
@@ -453,7 +453,7 @@ function App() {
               <figure className="story__shape">
                 <img
                   src="image11.jpg"
-                  alt="image"
+                  alt=""
                   className="story__image"
                 ></img>
                 <figcaption className="story__caption">Caption</figcaption>
@@ -462,13 +462,13 @@ function App() {
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Roman Arsovski
                 </h3>
+                <p>Vodja prodaje / Sales manager</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.
+                  <a href="mailto:roman.arsovski@zarnice-rona.si">
+                    roman.arsovski@zarnice-rona.si
+                  </a>
                 </p>
+                <p>041681066</p>
               </div>
             </div>
           </div>
@@ -478,7 +478,7 @@ function App() {
               <figure className="story__shape">
                 <img
                   src="image3.jpg"
-                  alt="image"
+                  alt=""
                   className="story__image"
                 ></img>
                 <figcaption className="story__caption">Caption</figcaption>
@@ -487,13 +487,13 @@ function App() {
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Robert Pelko
                 </h3>
+                <p>Vodja skladišča / Warehouse manager</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.
+                  <a href="mailto:robert.pelko@zarnice-rona.si">
+                    robert.pelko@zarnice-rona.si
+                  </a>
                 </p>
+                <p>041771632</p>
               </div>
             </div>
           </div>
@@ -503,7 +503,7 @@ function App() {
               <figure className="story__shape">
                 <img
                   src="image6.jpg"
-                  alt="image"
+                  alt=""
                   className="story__image"
                 ></img>
                 <figcaption className="story__caption">Caption</figcaption>
@@ -512,13 +512,13 @@ function App() {
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Krištof Potočnik
                 </h3>
+                <p>Komercialist / Sales specialist</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-                  amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.
+                  <a href="mailto:kristor.potocnik@zarnice-rona.si">
+                    kristor.potocnik@zarnice-rona.si
+                  </a>
                 </p>
+                <p>040837750</p>
               </div>
             </div>
           </div>
@@ -529,9 +529,9 @@ function App() {
         <div className="footer__logo-box">
           <img src="rona-logo.png" alt="Logo" className="footer__logo"></img>
         </div>
-        <div className="row">
-          <div className="col-1-of-2">
-            <div className="footer__navigation">
+        <div className="footer-content row">
+          <div className="">
+            {/* <div className="footer__navigation">
               <ul className="footer__list">
                 <li className="footer__item">
                   <a href="#" className="footer__link">
@@ -559,21 +559,24 @@ function App() {
                   </a>
                 </li>
               </ul>
+            </div> */}
+            <div className="footer__copyright">
+              <p>Rona Trgovina d.o.o.</p>
+              <p>Šuceva ulica 25, 4000 Kranj, Slovenia</p>
+              <p>042813233</p>
             </div>
           </div>
-          <div className="col-1-of-2">
+          <div className="">
             <p className="footer__copyright">
-              Build by Felipe. Copyright &copy; 2018
+              Build by Felipe. Copyright &copy; 2020
             </p>
           </div>
         </div>
       </footer>
 
-      <div className="popup" id="popup">
+      {/* <div className="popup" id="popup">
         <div className="popup__content">
           <div className="popup__left">
-            {/* <%= image_tag('nat-1-large.jpg', class: 'popup__img', alt: 'photo') %>
-        <%= image_tag('nat-1-large.jpg', class: 'popup__img', alt: 'photo') %> */}
           </div>
           <div className="popup__right">
             <a className="popup__close" href="#">
@@ -595,7 +598,7 @@ function App() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </Fragment>
   );
 }
