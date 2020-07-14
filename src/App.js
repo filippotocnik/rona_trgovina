@@ -514,8 +514,8 @@ function App() {
                 </h3>
                 <p>Komercialist / Sales specialist</p>
                 <p>
-                  <a href="mailto:kristor.potocnik@zarnice-rona.si">
-                    kristor.potocnik@zarnice-rona.si
+                  <a href="mailto:kristof.potocnik@zarnice-rona.si">
+                    kristof.potocnik@zarnice-rona.si
                   </a>
                 </p>
                 <p>040837750</p>
