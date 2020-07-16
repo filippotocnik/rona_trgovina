@@ -66,21 +66,11 @@ function App() {
           </div>
           <div className="row">
             <div className="col-1-of-2">
-              <h3 className="heading-tertiary u-margin-bottom-small">
+              {/* <h3 className="heading-tertiary u-margin-bottom-small">
                 Bolj podroben opis podjetja itd.. + par slik produktov
-              </h3>
+              </h3> */}
               <p className="paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut.
-              </p>
-              <h3 className="heading-tertiary u-margin-bottom-small">
-                Live adventures like you never have before
-              </h3>
-              <p className="paragraph u-margin-bottom-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Vizija podjetja je bila vedno začrtana zelo visoko, zato nam je uspelo priti na sam vrh med specijaliziranimi trgovci svetlobnih teles. Vizija za prihodnost pa je, da z nadaljnjim dobrim poslovanjem, s podporo kupcem ter prilagajanjem trgu tudi ohranimo status največjega in najbolj zaželjenega dobavitelja svetlobne tehnike.
               </p>
 
               {/* <a className="btn-text" href="#">Learn more &rarr;</a> */}
@@ -402,7 +392,7 @@ function App() {
             <div className="story">
               <figure className="story__shape">
                 <img
-                  src="image7.jpg"
+                  src="mojca22.jpeg"
                   alt=""
                   className="story__image"
                 ></img>
