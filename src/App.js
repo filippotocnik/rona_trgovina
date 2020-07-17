@@ -53,7 +53,7 @@ function App() {
           <h1 className="heading-primary">
             <span className="heading-primary--main">Rona Trgovina</span>
             <span className="heading-primary--sub">
-              Prodaja žarnic in svetil
+            Prodaja sijalk, žarnic, svetilk in drugih komponent za razsvetljavo.
             </span>
           </h1>
         </div>
@@ -558,7 +558,7 @@ function App() {
           </div>
           <div className="">
             <p className="footer__copyright">
-              Build by Felipe. Copyright &copy; 2020
+              Built by Felipe. Copyright &copy; 2020
             </p>
           </div>
         </div>
