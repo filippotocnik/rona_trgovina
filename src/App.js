@@ -53,7 +53,8 @@ function App() {
           <h1 className="heading-primary">
             <span className="heading-primary--main">Rona Trgovina</span>
             <span className="heading-primary--sub">
-            Prodaja sijalk, žarnic, svetilk in drugih komponent za razsvetljavo.
+              Prodaja sijalk, žarnic, svetilk in drugih komponent za
+              razsvetljavo.
             </span>
           </h1>
         </div>
@@ -70,7 +71,12 @@ function App() {
                 Bolj podroben opis podjetja itd.. + par slik produktov
               </h3> */}
               <p className="paragraph">
-              Vizija podjetja je bila vedno začrtana zelo visoko, zato nam je uspelo priti na sam vrh med specijaliziranimi trgovci svetlobnih teles. Vizija za prihodnost pa je, da z nadaljnjim dobrim poslovanjem, s podporo kupcem ter prilagajanjem trgu tudi ohranimo status največjega in najbolj zaželjenega dobavitelja svetlobne tehnike.
+                Vizija podjetja je bila vedno začrtana zelo visoko, zato nam je
+                uspelo priti na sam vrh med specijaliziranimi trgovci svetlobnih
+                teles. Vizija za prihodnost pa je, da z nadaljnjim dobrim
+                poslovanjem, s podporo kupcem ter prilagajanjem trgu tudi
+                ohranimo status največjega in najbolj zaželjenega dobavitelja
+                svetlobne tehnike.
               </p>
 
               {/* <a className="btn-text" href="#">Learn more &rarr;</a> */}
@@ -391,24 +397,20 @@ function App() {
           <div className="row">
             <div className="story">
               <figure className="story__shape">
-                <img
-                  src="mojca22.jpeg"
-                  alt=""
-                  className="story__image"
-                ></img>
+                <img src="image6.jpg" alt="" className="story__image"></img>
                 <figcaption className="story__caption">Caption</figcaption>
               </figure>
               <div className="story__text">
                 <h3 className="heading-tertiary u-margin-bottom-small">
-                  Mojca Potočnik
+                  Krištof Potočnik
                 </h3>
-                <p>Direktorica / CEO</p>
+                <p>Direktor</p>
                 <p>
-                  <a href="mailto:mojca.potocnik@zarnice-rona.si">
-                    mojca.potocnik@zarnice-rona.si
+                  <a href="mailto:kristof.potocnik@zarnice-rona.si">
+                    kristof.potocnik@zarnice-rona.si
                   </a>
                 </p>
-                <p>042813234</p>
+                <p>040837750</p>
               </div>
             </div>
           </div>
@@ -416,11 +418,7 @@ function App() {
           <div className="row">
             <div className="story">
               <figure className="story__shape">
-                <img
-                  src="image15.jpg"
-                  alt=""
-                  className="story__image"
-                ></img>
+                <img src="image15.jpg" alt="" className="story__image"></img>
                 <figcaption className="story__caption">Caption</figcaption>
               </figure>
               <div className="story__text">
@@ -441,11 +439,7 @@ function App() {
           <div className="row">
             <div className="story">
               <figure className="story__shape">
-                <img
-                  src="image11.jpg"
-                  alt=""
-                  className="story__image"
-                ></img>
+                <img src="image11.jpg" alt="" className="story__image"></img>
                 <figcaption className="story__caption">Caption</figcaption>
               </figure>
               <div className="story__text">
@@ -466,11 +460,7 @@ function App() {
           <div className="row">
             <div className="story">
               <figure className="story__shape">
-                <img
-                  src="image3.jpg"
-                  alt=""
-                  className="story__image"
-                ></img>
+                <img src="image3.jpg" alt="" className="story__image"></img>
                 <figcaption className="story__caption">Caption</figcaption>
               </figure>
               <div className="story__text">
@@ -491,24 +481,20 @@ function App() {
           <div className="row">
             <div className="story">
               <figure className="story__shape">
-                <img
-                  src="image6.jpg"
-                  alt=""
-                  className="story__image"
-                ></img>
+                <img src="mojca22.jpeg" alt="" className="story__image"></img>
                 <figcaption className="story__caption">Caption</figcaption>
               </figure>
               <div className="story__text">
                 <h3 className="heading-tertiary u-margin-bottom-small">
-                  Krištof Potočnik
+                  Mojca Potočnik
                 </h3>
-                <p>Komercialist / Sales specialist</p>
+                <p>Prokurist</p>
                 <p>
-                  <a href="mailto:kristof.potocnik@zarnice-rona.si">
-                    kristof.potocnik@zarnice-rona.si
+                  <a href="mailto:mojca.potocnik@zarnice-rona.si">
+                    mojca.potocnik@zarnice-rona.si
                   </a>
                 </p>
-                <p>040837750</p>
+                <p>042813234</p>
               </div>
             </div>
           </div>
